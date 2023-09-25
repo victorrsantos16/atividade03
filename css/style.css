@@ -1,0 +1,82 @@
+html{
+    font-family: helvetica;
+    background-color:#f53535;
+}
+.centered-title {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    height: 30vh;
+  }
+
+  .centered-title img {
+    max-width: 100%; 
+    max-height: 100%; 
+  }
+
+h1 img {
+    width: 600px; 
+    height: 300px; 
+ 
+  }
+  
+.container{
+    background-color:#2f80eb;
+    max-width: 1500px;
+    padding: 20px 40px;
+    margin: 30px auto;
+    position: relative;
+    height: 800px;
+   
+}
+
+.bold{
+    font-weight: bold;
+}
+.header{
+    text-align: center;
+}
+.main-title{ 
+    font-size: 40px;
+}
+.main-paragraph{
+    font-style: italic;
+}
+.featured-image{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.biography-container{
+    padding: 25px 10px;
+   
+    border-bottom: 1px dashed #ddd;
+   
+}
+.quotes-container{
+    background-color: #f7e81b;
+    padding:20px;
+    margin-top: 20px;
+}
+.quotes-container blockquote{
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+.quotes-container p{
+    font-style: italic; 
+}
+.curiosities-container{
+    padding: 25px 0;
+    margin:25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+.curiosities-container li{
+    height: 30px;
+}
+.img-bold{
+    font-weight: bold;
+    text-align: center;
+}

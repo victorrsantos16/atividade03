@@ -1,0 +1,19 @@
+html{
+    background-color: pink;
+    font-family: helvetica;
+}
+h1{
+    text-align: center;
+    color:rgb(7, 0, 0)
+}
+.centered-title {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    height: 30vh;
+  }
+  .bold{
+    font-weight: bold;
+    font-size: 18px;
+}
